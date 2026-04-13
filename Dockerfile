@@ -25,6 +25,11 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
+# Actualizar paquetes del sistema operativo para mitigar vulnerabilidades OS
+RUN apt-get update && apt-get upgrade -y \
+    && rm -rf /var/lib/apt/lists/* 
+# Eliminar Optimizaciones de Python
+
 # Optimizaciones de Python
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1

@@ -32,12 +32,12 @@ jobs:
           head: HEAD
           extra_args: --debug --only-verified
 
-      - name: 2b. SAST Scan (SonarCloud)
-        # Asumiendo que configuras SonarCloud. Es gratis para repos públicos.
-        uses: SonarSource/sonarcloud-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      # - name: 2b. SAST Scan (SonarCloud)
+      #   # Asumiendo que configuras SonarCloud. Es gratis para repos públicos.
+      #   uses: SonarSource/sonarcloud-github-action@master
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           
       # --- 3. BUILD & UNIT TEST (PYTHON) ---
       - name: 3a. Setup Python

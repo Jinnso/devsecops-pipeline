@@ -12,6 +12,6 @@ alertmanager:
     receivers:
     - name: 'telegram-bot'
       telegram_configs:
-      - bot_token: '8760734181:AAEwDoB9prrqJXG57YVgXDzwdUl1RJV9uzY'
+      - bot_token: '<TOKEN_SECRETO>'
         chat_id: 649698155
         parse_mode: 'HTML'

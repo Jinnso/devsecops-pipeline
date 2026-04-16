@@ -16,6 +16,9 @@ This repository houses a complete, end-to-end DevSecOps and Site Reliability Eng
 
 The architecture enforces a "Shift-Left" security approach, GitOps continuous deployment, automated dynamic vulnerability scanning, and proactive observability with real-time incident alerting via Telegram.
 
+This project was based in this image 
+![Architecture_Diagram](devsecops-pipeline.jpeg)
+
 ## 🏗️ Architecture Flow
 
 The pipeline is divided into three core phases:

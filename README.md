@@ -42,7 +42,7 @@ The pipeline is divided into three core phases:
 
 ## 📂 Project Structure
 
-\`\`\`bash
+```
 .
 ├── .github/
 │   └── workflows/
@@ -58,7 +58,7 @@ The pipeline is divided into three core phases:
 │   ├── alertmanager-secret.yaml  # Helm values for Telegram routing & Grafana NodePort
 │   └── ...
 └── README.md
-\`\`\`
+```
 
 ## 🚀 Deployment Guide
 

@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: fastapi-app
-          # REEMPLAZA "jinnso/devsecops-pipeline" por el nombre exacto de tu repo si es distinto
-          image: ghcr.io/jinnso/devsecops-pipeline/myapp:latest
+          # REEMPLAZA "jinnso/ultimate-devsecops-pipeline" por el nombre exacto de tu repo si es distinto
+          image: ghcr.io/jinnso/ultimate-devsecops-pipeline/myapp:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
